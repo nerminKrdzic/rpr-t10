@@ -10,6 +10,12 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class GeografijaDAOTest {
 
+    @BeforeEach
+    void regenerisi(){
+        GeografijaDAO dao = GeografijaDAO.getInstance();
+        dao.regenerisi();
+    }
+
     @Test
     void regenerateFile() {
         GeografijaDAO.removeInstance();
