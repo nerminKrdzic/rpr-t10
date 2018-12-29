@@ -13,9 +13,10 @@ import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
+import javafx.stage.FileChooser;
 import javafx.stage.Stage;
-import static javafx.scene.layout.Region.USE_COMPUTED_SIZE;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Locale;
@@ -48,7 +49,7 @@ public class GeografijaController {
     private ListView ispisView;
 
     @FXML
-    BorderPane borderPane;
+    private BorderPane borderPane;
 
     private Drzava tekucaDrzavaPretraga = null;
 
@@ -148,6 +149,43 @@ public class GeografijaController {
     }
 
 
+    private void selectLanguage(Locale locale) {
+        Stage primaryStage = (Stage) borderPane.getScene().getWindow();
+        Locale.setDefault(locale);
+        ResourceBundle bundle = ResourceBundle.getBundle("translation");
+        FXMLLoader loader = new FXMLLoader(getClass().getResource("/geografija.fxml"), bundle);
+        Parent root = null;
+        try {
+            root = loader.load();
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+            return;
+        }
+        primaryStage.setScene(new Scene(root, 600, 410));
+        primaryStage.setMinWidth(600);
+        primaryStage.setMinHeight(450);
+        primaryStage.setMaxHeight(450);
+        primaryStage.setMaxWidth(600);
+        primaryStage.show();
+    }
+
+    public void bosanskiClicked(ActionEvent actionEvent) {
+        selectLanguage(new Locale("bs", "BA"));
+    }
+
+    public void engleskiClicked(ActionEvent actionEvent) {
+        selectLanguage(new Locale("en", "US"));
+    }
+
+    public void njemackiClicked(ActionEvent actionEvent) {
+        selectLanguage(new Locale("de", "DE"));
+    }
+
+    public void francuskiClicked(ActionEvent actionEvent) {
+        selectLanguage(new Locale("fr", "FR"));
+    }
+
+
     public String getNazivTextField() {
         return nazivTextField.textProperty().get();
     }
@@ -221,39 +259,27 @@ public class GeografijaController {
         this.ispisView.itemsProperty().setValue(value);
     }
 
-    private void selectLanguage(Locale locale) {
-        Stage primaryStage = (Stage) borderPane.getScene().getWindow();
-        Locale.setDefault(locale);
-        ResourceBundle bundle = ResourceBundle.getBundle("translation");
-        FXMLLoader loader = new FXMLLoader(getClass().getResource("/Geografija.fxml"), bundle);
-        Parent root = null;
+    private void doSave(File datoteka) {
         try {
-            root = loader.load();
-        } catch (IOException e) {
-            System.out.println(e.getMessage());
-            return;
+            new GradoviReport().saveAs(datoteka.getAbsolutePath(), GeografijaDAO.getInstance().getConnection());
+        } catch (Exception e) {
+            System.out.println( e.getMessage() );
         }
-        primaryStage.setScene(new Scene(root, 600, 410));
-        primaryStage.setMinWidth(600);
-        primaryStage.setMinHeight(450);
-        primaryStage.setMaxHeight(450);
-        primaryStage.setMaxWidth(600);
-        primaryStage.show();
     }
 
-    public void bosanskiClicked(ActionEvent actionEvent) {
-        selectLanguage(new Locale("bs", "BA"));
-    }
+    public void saveAs(ActionEvent event) {
+        FileChooser fc = new FileChooser();
+        FileChooser.ExtensionFilter xslmExtenizija = new FileChooser.ExtensionFilter("XSLX", "*.xslx");
+        fc.getExtensionFilters().add( xslmExtenizija );
+        FileChooser.ExtensionFilter docxExtenzija = new FileChooser.ExtensionFilter("DOCX", "*.docx");
+        fc.getExtensionFilters().add( docxExtenzija );
+        FileChooser.ExtensionFilter pdfExtenzija = new FileChooser.ExtensionFilter("PDF", "*.pdf");
+        fc.getExtensionFilters().add( pdfExtenzija );
+        fc.setTitle("SAVING A REPORT");
+        File selectedFile = fc.showSaveDialog(null);
 
-    public void engleskiClicked(ActionEvent actionEvent) {
-        selectLanguage(new Locale("en", "US"));
-    }
-
-    public void njemackiClicked(ActionEvent actionEvent) {
-        selectLanguage(new Locale("de", "DE"));
-    }
-
-    public void francuskiClicked(ActionEvent actionEvent) {
-        selectLanguage(new Locale("fr", "FR"));
+        //Ako ne odaberemo nista, nista se i ne desi.
+        if (selectedFile != null)
+            doSave(selectedFile);
     }
 }

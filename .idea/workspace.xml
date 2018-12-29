@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5580d4ec-8942-4bda-a47a-08f1ca14e323" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAs.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/Geografija.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/Geografija.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/translation.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/translation.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/translation_bs.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/translation_bs.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/translation_de.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/translation_de.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/translation_en.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/translation_en.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/translation_fr.properties" beforeDir="false" afterPath="$PROJECT_DIR$/resources/translation_fr.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/Geografija.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/geografija.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/saveAs.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/saving.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaControllerDAOTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,10 +63,36 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+            <state relative-caret-position="-7">
+              <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#showReport#0;class#GradoviReport#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/OracleDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="453">
+              <caret line="79" selection-start-line="79" selection-end-line="79" />
+              <folding>
+                <element signature="method#deleteInstance#0;class#OracleDAOTest#0" />
+                <element signature="method#glavniGrad#0;class#OracleDAOTest#0" />
+                <element signature="method#obrisiDrzavu#0;class#OracleDAOTest#0" />
+                <element signature="method#obrisiDrzavu2#0;class#OracleDAOTest#0" />
+                <element signature="method#dodajGrad#0;class#OracleDAOTest#0" />
               </folding>
             </state>
           </provider>
@@ -79,52 +101,20 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="271" selection-start-line="271" selection-end-line="271" />
+            <state relative-caret-position="282">
+              <caret line="277" column="39" lean-forward="true" selection-start-line="277" selection-start-column="39" selection-end-line="277" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/Geografija.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="140" column="87" lean-forward="true" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAs.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="118">
-              <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+            <state relative-caret-position="136">
+              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -164,19 +154,20 @@
         <option value="$PROJECT_DIR$/resources/translation_de.properties" />
         <option value="$PROJECT_DIR$/resources/translation_fr.properties" />
         <option value="$PROJECT_DIR$/resources/translation_en.properties" />
-        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" />
         <option value="$PROJECT_DIR$/resources/translation.properties" />
         <option value="$PROJECT_DIR$/resources/saveAs.fxml" />
-        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java" />
         <option value="$PROJECT_DIR$/resources/Geografija.fxml" />
         <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" />
+        <option value="$PROJECT_DIR$/resources/saving.fxml" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" />
         <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
-    <option name="width" value="1064" />
+    <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectView">
@@ -195,12 +186,6 @@
               <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
               <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="reports" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
@@ -264,7 +249,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546120464766" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546127373093" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/ba/unsa/etf/rpr" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/Apoteka-projekat-master (1)/Apoteka-projekat-master" />
@@ -274,8 +259,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\molte\IdeaProjects\rpr-t10\src\ba\unsa\etf\rpr" />
       <recent name="C:\Users\molte\IdeaProjects\rpr-t10\resources" />
+      <recent name="C:\Users\molte\IdeaProjects\rpr-t10\src\ba\unsa\etf\rpr" />
       <recent name="C:\Users\molte\IdeaProjects\rpr-t9.git\src\ba\unsa\etf\rpr" />
     </key>
   </component>
@@ -305,7 +290,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GeografijaControllerDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GeografijaDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr-t9" />
       <extension name="coverage">
         <pattern>
@@ -314,7 +299,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.GeografijaControllerDAOTest" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.GeografijaDAOTest" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,7 +353,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.GeografijaControllerDAOTest" />
+        <item itemvalue="JUnit.GeografijaDAOTest" />
         <item itemvalue="JUnit.OracleDAOTest" />
         <item itemvalue="JUnit.OracleDAOTest.dodajDrzavu" />
         <item itemvalue="JUnit.OracleDAOTest.obrisiDrzavu" />
@@ -393,7 +378,7 @@
       <workItem from="1546032159740" duration="1286000" />
       <workItem from="1546035856413" duration="388000" />
       <workItem from="1546036629819" duration="3020000" />
-      <workItem from="1546102276035" duration="15125000" />
+      <workItem from="1546102276035" duration="21943000" />
     </task>
     <task id="LOCAL-00001" summary="Kreirao OracleDao klasu koja radi sa oracle konekcijom">
       <created>1545342230204</created>
@@ -451,7 +436,14 @@
       <option name="project" value="LOCAL" />
       <updated>1546112396029</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Kreirao saveAs.fxml">
+      <created>1546120727259</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1546120727259</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -487,7 +479,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48585000" />
+    <option name="totallyTimeSpent" value="55403000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -500,8 +492,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20895523" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.110341154" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -510,8 +503,8 @@
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22643554" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.48862407" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.41603467" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26218852" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
@@ -545,22 +538,45 @@
     <MESSAGE value="Kreirana klasa GradoviReport sa potrebnom implementacijom" />
     <MESSAGE value="Zaboravio ici add za ovaj jrxml" />
     <MESSAGE value="Dodao prijevod na trazene jezike" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodao prijevod na trazene jezike" />
+    <MESSAGE value="Kreirao saveAs.fxml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kreirao saveAs.fxml" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java</url>
-          <line>261</line>
+          <line>270</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="choiceBox.getValue()" language="JAVA" />
+        <watch expression="getClass().getResource(&quot;/reports/&quot;).getFile()" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">
+      <expression>
+        <expression-string>getClass().getResource(&quot;/reports/&quot;).getFile()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>choiceBox.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>new File(&quot;saving.fxml&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>java.io.File</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>Locale.getISOLanguages()</expression-string>
         <language-id>JAVA</language-id>
@@ -592,26 +608,6 @@
         <custom-info>ba.unsa.etf.rpr.OracleDAO</custom-info>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>nadjiDrzavuQuery</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nadjiDrzavuQuery.close();</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>deleteGradQuery.executeUpdate()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>deleteGradQuery.execute()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
@@ -640,27 +636,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1781" selection-start-line="1781" selection-end-line="1781" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/OracleDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="79" selection-start-line="79" selection-end-line="79" />
-          <folding>
-            <element signature="method#deleteInstance#0;class#OracleDAOTest#0" />
-            <element signature="method#glavniGrad#0;class#OracleDAOTest#0" />
-            <element signature="method#obrisiDrzavu#0;class#OracleDAOTest#0" />
-            <element signature="method#obrisiDrzavu2#0;class#OracleDAOTest#0" />
-            <element signature="method#dodajGrad#0;class#OracleDAOTest#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -723,13 +698,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaControllerDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/reports/translations.properties">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -773,56 +741,85 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAs.fxml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
-      <provider editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/Geografija.fxml">
+    <entry file="file://$PROJECT_DIR$/resources/geografija.fxml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
-          <caret line="140" column="87" lean-forward="true" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
+          <caret line="140" column="87" selection-start-line="140" selection-start-column="87" selection-end-line="140" selection-end-column="87" />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java">
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        <state relative-caret-position="136">
+          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/saving.fxml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="303">
+          <caret line="25" column="168" selection-start-line="25" selection-start-column="168" selection-end-line="25" selection-end-column="168" />
+        </state>
+      </provider>
+      <provider editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/OracleDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+          <folding>
+            <element signature="method#deleteInstance#0;class#OracleDAOTest#0" />
+            <element signature="method#glavniGrad#0;class#OracleDAOTest#0" />
+            <element signature="method#obrisiDrzavu#0;class#OracleDAOTest#0" />
+            <element signature="method#obrisiDrzavu2#0;class#OracleDAOTest#0" />
+            <element signature="method#dodajGrad#0;class#OracleDAOTest#0" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/saveAsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="35" lean-forward="true" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+        <state relative-caret-position="367">
+          <caret line="25" column="44" lean-forward="true" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="54" column="43" selection-start-line="54" selection-start-column="43" selection-end-line="54" selection-end-column="43" />
+        <state relative-caret-position="-7">
+          <caret line="55" column="41" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#showReport#0;class#GradoviReport#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-10.0.2/lib/src.zip!/javafx.fxml/javafx/fxml/FXMLLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1781" selection-start-line="1781" selection-end-line="1781" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="271" selection-start-line="271" selection-end-line="271" />
+        <state relative-caret-position="282">
+          <caret line="277" column="39" lean-forward="true" selection-start-line="277" selection-start-column="39" selection-end-line="277" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
