@@ -14,7 +14,6 @@ public class GeografijaDAO {
     private PreparedStatement selektGradovi, selektDrzave;
     private GeografijaDAO(){
         try {
-            // za sqlitebazu kreiranje konekcije
              connection = DriverManager.getConnection(URL);
             imaLiBaza(); // gleda ima li uopste potrebnih tabela u bazi
             prepareStatements();
@@ -102,7 +101,7 @@ public class GeografijaDAO {
         instance = null;
     }
 
-    private void regenerisi(){
+    public void regenerisi(){
         try{
             deleteGradQuery.executeUpdate();
             deleteDrzavaQuery.executeUpdate();

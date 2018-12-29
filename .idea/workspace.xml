@@ -2,7 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5580d4ec-8942-4bda-a47a-08f1ca14e323" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/net_sf_jasperreports_jasperreports_6_7_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baza.db.lck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baza.db.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baza.db.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/baza.db.script" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/reports/gradovi.jrxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Geografija.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/GeografijaDAO.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/GeografijaDAO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/ba/unsa/etf/rpr/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/rpr-t9/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/rpr-t9/baza.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/rpr-t9/ba/unsa/etf/rpr/GeografijaDAOTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/rpr-t9/ba/unsa/etf/rpr/GeografijaDAOTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/baza.db" beforeDir="false" afterPath="$PROJECT_DIR$/resources/baza.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rpr-t9.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr-t9.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,25 +74,22 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3621">
-              <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
+            <state relative-caret-position="1530">
+              <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
               <folding>
-                <element signature="method#getInstance#0;class#GeografijaDAO#0" />
                 <element signature="method#removeInstance#0;class#GeografijaDAO#0" />
-                <element signature="method#regenerisi#0;class#GeografijaDAO#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.fxml">
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
             </state>
           </provider>
-          <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -86,74 +102,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/OracleDAOTest.java">
+        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="79" selection-start-line="79" selection-end-line="79" />
-              <folding>
-                <element signature="method#deleteInstance#0;class#OracleDAOTest#0" />
-                <element signature="method#glavniGrad#0;class#OracleDAOTest#0" />
-                <element signature="method#obrisiDrzavu#0;class#OracleDAOTest#0" />
-                <element signature="method#obrisiDrzavu2#0;class#OracleDAOTest#0" />
-                <element signature="method#dodajGrad#0;class#OracleDAOTest#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/OracleDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="114" column="41" selection-start-line="114" selection-start-column="28" selection-end-line="114" selection-end-column="41" />
+            <state relative-caret-position="442">
+              <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#OracleDAO#0;class#OracleDAO#0" />
-                <element signature="method#vratiMaxID#0;class#OracleDAO#0" />
-                <element signature="method#imaLiBaza#0;class#OracleDAO#0" />
-                <element signature="method#getInstance#0;class#OracleDAO#0" />
-                <element signature="method#removeInstance#0;class#OracleDAO#0" />
-                <element signature="method#glavniGrad#0;class#OracleDAO#0" />
-                <element signature="method#obrisiDrzavu#0;class#OracleDAO#0" />
-                <element signature="method#gradovi#0;class#OracleDAO#0" />
-                <element signature="method#dodajGrad#0;class#OracleDAO#0" />
-                <element signature="method#dodajDrzavu#0;class#OracleDAO#0" />
-                <element signature="method#izmijeniGrad#0;class#OracleDAO#0" />
-                <element signature="method#nadjiDrzavu#0;class#OracleDAO#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java">
+        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="178">
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#5981#5982#0" expanded="true" />
-                <element signature="e#6055#6056#0" expanded="true" />
-                <element signature="method#setBrojStanovnikaDodavanje#0;class#Geografija#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Grad.java">
+        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Drzava.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="24" selection-start-column="24" selection-end-column="24" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+              <folding>
+                <element signature="method#setBrojStanovnikaDodavanje#0;class#Geografija#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -176,23 +155,26 @@
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/239337f8-f872-4f92-b082-b573a036c072/console.sql" />
         <option value="$PROJECT_DIR$/test/ba/unsa/etf/rpr/OracleDAOTest.java" />
-        <option value="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" />
         <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/OracleDAO.java" />
         <option value="$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions" />
         <option value="$PROJECT_DIR$/definitions.css" />
-        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" />
-        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" />
-        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java" />
         <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.fxml" />
         <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/definitions.css" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java" />
+        <option value="$APPLICATION_CONFIG_DIR$/consoles/.datagrid/cell" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/0683b554-8891-4ddc-a297-2315340ae599/console.sql" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java" />
+        <option value="$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java" />
+        <option value="$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -203,42 +185,63 @@
         <subPane>
           <expand>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t9.git" type="462c0819:PsiDirectoryNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t9.git" type="462c0819:PsiDirectoryNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t9.git" type="462c0819:PsiDirectoryNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="rpr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t9.git" type="462c0819:PsiDirectoryNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
-              <item name="rpr-t9.git" type="462c0819:PsiDirectoryNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="rpr" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
             </path>
             <path>
-              <item name="rpr-t9.git" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+              <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
+              <item name="239337f8-f872-4f92-b082-b573a036c072" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
+            </path>
+            <path>
+              <item name="rpr-t10" type="b2602c69:ProjectViewProjectNode" />
               <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Database Consoles" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
               <item name="0683b554-8891-4ddc-a297-2315340ae599" type="1e004dc1:ScratchProjectViewPane$MyRootNode$1$1" />
@@ -252,11 +255,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1545497283663" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546040889610" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/ba/unsa/etf/rpr" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -275,7 +286,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.GeografijaDAOTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.Main" />
       <module name="rpr-t9" />
@@ -351,8 +362,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.GeografijaDAOTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.OracleDAOTest" />
         <item itemvalue="JUnit.OracleDAOTest.dodajDrzavu" />
         <item itemvalue="JUnit.OracleDAOTest.obrisiDrzavu" />
@@ -374,6 +385,10 @@
       <workItem from="1545483796279" duration="14067000" />
       <workItem from="1545746427545" duration="2738000" />
       <workItem from="1546031625962" duration="18000" />
+      <workItem from="1546032159740" duration="1286000" />
+      <workItem from="1546035856413" duration="388000" />
+      <workItem from="1546036629819" duration="3020000" />
+      <workItem from="1546102276035" duration="1097000" />
     </task>
     <task id="LOCAL-00001" summary="Kreirao OracleDao klasu koja radi sa oracle konekcijom">
       <created>1545342230204</created>
@@ -410,28 +425,17 @@
       <option name="project" value="LOCAL" />
       <updated>1545497266990</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Kreirana klasa GradoviReport sa potrebnom implementacijom">
+      <created>1546040816967</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546040816968</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OracleDAOTest_obrisiDrzavu - 2018.12.21 at 00h 10m 18s.xml">
-      <configuration name="OracleDAOTest.obrisiDrzavu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OracleDAOTest - 2018.12.21 at 00h 11m 07s.xml">
-      <configuration name="OracleDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OracleDAOTest_dodajDrzavu - 2018.12.21 at 00h 15m 21s.xml">
-      <configuration name="OracleDAOTest.dodajDrzavu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OracleDAOTest_dodajDrzavu - 2018.12.21 at 00h 21m 14s.xml">
-      <configuration name="OracleDAOTest.dodajDrzavu" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OracleDAOTest - 2018.12.21 at 00h 27m 50s.xml">
-      <configuration name="OracleDAOTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="OracleDAOTest_dodajDrzavu - 2018.12.21 at 00h 31m 55s.xml">
-      <configuration name="OracleDAOTest.dodajDrzavu" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="OracleDAOTest_dodajDrzavu - 2018.12.21 at 00h 34m 48s.xml">
       <configuration name="OracleDAOTest.dodajDrzavu" configurationId="JUnit" />
     </history-entry>
@@ -444,9 +448,27 @@
     <history-entry file="GeografijaDAOTest - 2018.12.22 at 13h 36m 28s.xml">
       <configuration name="GeografijaDAOTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 34m 06s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 38m 37s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 40m 39s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 43m 21s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 45m 18s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GeografijaDAOTest - 2018.12.29 at 00h 46m 12s.xml">
+      <configuration name="GeografijaDAOTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28766000" />
+    <option name="totallyTimeSpent" value="34557000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -459,9 +481,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16311301" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1705757" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -469,13 +490,13 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30877572" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39219934" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.42795232" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
-      <window_info anchor="bottom" id="Database Console" order="7" weight="0.49404117" />
+      <window_info anchor="bottom" id="Database Console" order="7" weight="0.4452871" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32936078" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -502,19 +523,10 @@
     <MESSAGE value="Prekopirao prepravljene testove" />
     <MESSAGE value="Kreirao fxml koji sada treba povezati sa kontrolerom" />
     <MESSAGE value="Napisan je sav potrebni kod u kontroleru" />
-    <option name="LAST_COMMIT_MESSAGE" value="Napisan je sav potrebni kod u kontroleru" />
+    <MESSAGE value="Kreirana klasa GradoviReport sa potrebnom implementacijom" />
+    <option name="LAST_COMMIT_MESSAGE" value="Kreirana klasa GradoviReport sa potrebnom implementacijom" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java</url>
-          <line>88</line>
-          <properties />
-          <option name="timeStamp" value="28" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
         <watch expression="getNazivTextField()" language="JAVA" />
@@ -571,28 +583,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1768">
-          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/idea64.exe.vmoptions">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="9" lean-forward="true" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#main#0;class#Main#0" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -607,33 +601,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1781" selection-start-line="1781" selection-end-line="1781" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3621">
-          <caret line="250" column="5" selection-start-line="250" selection-start-column="5" selection-end-line="250" selection-end-column="5" />
-          <folding>
-            <element signature="method#getInstance#0;class#GeografijaDAO#0" />
-            <element signature="method#removeInstance#0;class#GeografijaDAO#0" />
-            <element signature="method#regenerisi#0;class#GeografijaDAO#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.fxml">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-        </state>
-      </provider>
-      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
-    </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0683b554-8891-4ddc-a297-2315340ae599/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-column="19" />
         </state>
       </provider>
     </entry>
@@ -687,18 +654,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java">
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.fxml">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="918">
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="JavaFX-Scene-Builder" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/reports">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/baza.db.script">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GeografijaDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
+        <state relative-caret-position="1530">
+          <caret line="94" column="21" selection-start-line="94" selection-start-column="21" selection-end-line="94" selection-end-column="21" />
+          <folding>
+            <element signature="method#removeInstance#0;class#GeografijaDAO#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/0683b554-8891-4ddc-a297-2315340ae599/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/GradoviReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="33" column="34" selection-start-line="33" selection-start-column="34" selection-end-line="33" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#5981#5982#0" expanded="true" />
-            <element signature="e#6055#6056#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Geografija.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+          <folding>
             <element signature="method#setBrojStanovnikaDodavanje#0;class#Geografija#0" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/ba/unsa/etf/rpr/GeografijaDAOTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ba/unsa/etf/rpr/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10.0.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>rpr-t9</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>net.sf.jasperreports:jasperreports:6.7.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

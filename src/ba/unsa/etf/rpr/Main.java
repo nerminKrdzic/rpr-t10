@@ -1,10 +1,12 @@
 package ba.unsa.etf.rpr;
 
 import javafx.application.Application;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.JRException;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -20,6 +22,15 @@ public class Main extends Application {
         return ispis;
     }
 
+    public void stampajGradove(ActionEvent actionEvent) {
+        try {
+            new GradoviReport().showReport(GeografijaDAO.getInstance().getConnection());
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }
+    }
+
+
     public static void glavniGrad(){
         System.out.println("Unesite naziv drzave: ");
         Scanner scanner = new Scanner(System.in);
@@ -33,8 +44,8 @@ public class Main extends Application {
 
     public static void main(String[] args) {
         launch(args);
-        //System.out.println("Gradovi su:\n" + ispisiGradove());
-        //glavniGrad();
+        /*Main main = new Main();
+        main.stampajGradove(new ActionEvent());*/
 
     }
 
