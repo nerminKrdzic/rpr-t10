@@ -130,12 +130,16 @@
         <menus>
           <Menu mnemonicParsing="false" text="%jezik">
             <items>
-                <MenuItem mnemonicParsing="false" text="%bosanski" onAction="#bosanskiClicked"/>
-                <MenuItem mnemonicParsing="false" text="%njemacki" onAction="#njemackiClicked"/>
-                <MenuItem mnemonicParsing="false" text="%engleski" onAction="#engleskiClicked"/>
-                <MenuItem mnemonicParsing="false" text="%francuski" onAction="#francuskiClicked"/>
+                <MenuItem mnemonicParsing="false" onAction="#bosanskiClicked" text="%bosanski" />
+                <MenuItem mnemonicParsing="false" onAction="#njemackiClicked" text="%njemacki" />
+                <MenuItem mnemonicParsing="false" onAction="#engleskiClicked" text="%engleski" />
+                <MenuItem mnemonicParsing="false" onAction="#francuskiClicked" text="%francuski" />
             </items>
           </Menu>
+            <Menu mnemonicParsing="false" onAction="#saveAs" text="%save">
+               <items>
+                  <MenuItem mnemonicParsing="false" text="%saveAs" onAction="#saveAs"/>
+               </items></Menu>
         </menus>
       </MenuBar>
    </top>

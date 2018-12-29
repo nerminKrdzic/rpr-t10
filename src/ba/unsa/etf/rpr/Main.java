@@ -52,7 +52,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         ResourceBundle bundle = ResourceBundle.getBundle("translation");
-        FXMLLoader loader = new FXMLLoader( getClass().getResource( "/Geografija.fxml"), bundle);
+        FXMLLoader loader = new FXMLLoader(getClass().getResource( "/Geografija.fxml"), bundle);
         Parent root = loader.load();
         primaryStage.setTitle("T10");
         Scene scene = new Scene(root, 600, 410);

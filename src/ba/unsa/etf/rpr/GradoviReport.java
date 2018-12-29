@@ -33,4 +33,8 @@ public class GradoviReport extends JFrame {
         this.setVisible(true);
         System.out.print("Done!");
     }
+
+    public void saveAs(String spasi) {
+
+    }
 }
