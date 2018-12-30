@@ -4,11 +4,11 @@ import java.io.*;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import com.lowagie.text.pdf.PdfWriter;
 import net.sf.jasperreports.engine.*;
+import net.sf.jasperreports.engine.design.JasperDesign;
 import net.sf.jasperreports.engine.export.ooxml.JRDocxExporter;
 import net.sf.jasperreports.engine.export.ooxml.JRXlsxExporter;
+import net.sf.jasperreports.engine.xml.JRXmlLoader;
 import net.sf.jasperreports.export.SimpleExporterInput;
 import net.sf.jasperreports.export.SimpleOutputStreamExporterOutput;
 import net.sf.jasperreports.export.SimpleXlsxReportConfiguration;
@@ -79,5 +79,24 @@ public class GradoviReport extends JFrame {
         } catch (IOException e) {
             e.printStackTrace();
         }
+    }
+
+    public void showForState(Connection conn, Drzava drzava) throws JRException {
+        String reportSrcFile = getClass().getResource("/reports/gradoviZaDrzavu.jrxml").getFile();
+        String reportsDir = getClass().getResource("/reports/").getFile();
+        Integer param = drzava.getId();
+        JasperDesign jasperDesign = JRXmlLoader.load(reportSrcFile);
+        JasperReport jasperReport = JasperCompileManager.compileReport(reportSrcFile);
+        HashMap<String, Object> parameters = new HashMap<>();
+        parameters.put("reportsDirPath", reportsDir);
+        parameters.put("Parameter1",param);
+
+        JasperPrint print = JasperFillManager.fillReport(jasperReport, parameters, conn);
+        JRViewer viewer = new JRViewer(print);
+        viewer.setOpaque(true);
+        viewer.setVisible(true);
+        this.add(viewer);
+        this.setSize(500, 500);
+        this.setVisible(true);
     }
 }

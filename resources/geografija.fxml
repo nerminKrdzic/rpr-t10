@@ -122,6 +122,25 @@
                        </GridPane>
                    </content>
                </Tab>
+               <Tab text="%reportDrzave">
+                   <content>
+                       <GridPane alignment="CENTER" hgap="5" vgap="5">
+                           <columnConstraints>
+                               <ColumnConstraints halignment="CENTER" maxWidth="200" prefWidth="200" />
+                               <ColumnConstraints halignment="CENTER" maxWidth="200" prefWidth="200" />
+                           </columnConstraints>
+                           <rowConstraints>
+                               <RowConstraints maxHeight="220" minHeight="220" prefHeight="220" valignment="CENTER" />
+                               <RowConstraints maxHeight="40" minHeight="40" prefHeight="40" valignment="CENTER" />
+                           </rowConstraints>
+                           <children>
+                               <Label text="%naziv" styleClass="label" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+                               <TextField fx:id="nazivDrzave" promptText="%unesiteNazivDrzave" styleClass="textfield" GridPane.columnIndex="1" GridPane.rowIndex="0"/>
+                               <Button text="%ispisi" minWidth="200" maxWidth="200" minHeight="50" maxHeight="50" prefWidth="200" prefHeight="50" GridPane.columnIndex="0" GridPane.rowIndex="1" GridPane.columnSpan="2" onAction="#ispisiZaDrzavu"/>
+                           </children>
+                       </GridPane>
+                   </content>
+               </Tab>
            </tabs>
        </TabPane>
    </center>
@@ -138,7 +157,7 @@
           </Menu>
             <Menu mnemonicParsing="false" onAction="#saveAs" text="%save">
                <items>
-                  <MenuItem mnemonicParsing="false" text="%saveAs" onAction="#saveAs"/>
+                  <MenuItem mnemonicParsing="false" onAction="#saveAs" text="%saveAs" />
                </items></Menu>
         </menus>
       </MenuBar>

@@ -11,10 +11,12 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Label;
 import javafx.scene.control.ListView;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.layout.BorderPane;
 import javafx.stage.FileChooser;
 import javafx.stage.Stage;
+import net.sf.jasperreports.engine.JRException;
 
 import java.io.File;
 import java.io.IOException;
@@ -281,5 +283,19 @@ public class GeografijaController {
         //Ako ne odaberemo nista, nista se i ne desi.
         if (selectedFile != null)
             doSave(selectedFile);
+    }
+
+    @FXML
+    private TextField nazivDrzave;
+
+    public void ispisiZaDrzavu(ActionEvent event) {
+        if(nazivDrzave.textProperty().get().isEmpty()) return;
+        Drzava d = GeografijaDAO.getInstance().nadjiDrzavu(nazivDrzave.textProperty().get());
+        if(d == null) return;
+        try {
+            new GradoviReport().showForState(GeografijaDAO.getInstance().getConnection(), d);
+        } catch (JRException e1) {
+            e1.printStackTrace();
+        }
     }
 }
